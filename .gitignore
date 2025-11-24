@@ -22,6 +22,10 @@
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
 
+# Arduino libraries
+
+libraries/
+
 # Arduino build folders (usually inside sketch folder; "build" for CLI, "tmp" for others)
 build/
 tmp/
