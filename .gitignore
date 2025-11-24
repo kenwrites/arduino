@@ -21,3 +21,39 @@
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
+
+# Arduino build folders (usually inside sketch folder; "build" for CLI, "tmp" for others)
+build/
+tmp/
+*.bin
+*.elf
+*.hex
+*.map
+*.eeprom
+*.eep
+*.d
+*.dep
+*.o
+# VS Code/PlatformIO user data
+.vscode/
+.pio/
+# Arduino IDE metadata
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+*.jscpd
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# Arduino IDE specific folders
+__MACOSX/
+.arduino15/
+.arduino/
+# Backup files
+*~
+*.bak
+*.swp
+# Compiled libraries, uploads, caches (Arduino IDE 2.x/CLI)
+.cache/
+.arduino-sketch/
